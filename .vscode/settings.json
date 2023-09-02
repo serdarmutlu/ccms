@@ -1,0 +1,16 @@
+{
+    "cmake.configureArgs": [
+        "-DVCPKG_APPLOCAL_DEPS=ON",
+        "-DX_VCPKG_APPLOCAL_DEPS_INSTALL=ON",
+        "-DVCPKG_MANIFEST_MODE=OFF",
+    ],
+    "vcpkg.general.enable": true,
+    "vcpkg.target.useStaticLib": false,
+    "vcpkg.target.installDependencies": true,
+    "vcpkg.target.preferSystemLibs": false,
+    "vcpkg.target.useManifest": false,
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "clang-format.executable": "/usr/bin/clang-format"
+}
