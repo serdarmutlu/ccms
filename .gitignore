@@ -1,6 +1,9 @@
-build/
-Makefile
-CMakeFiles/
+.cache/
 archive/
-cache/
+build/
+ccms
+cmake_install.cmake
+CMakeFiles/
+compile_commands.json
+Makefile
 output/
